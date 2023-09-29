@@ -23,3 +23,5 @@ console.log(typeof "hitesh");
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
+
+
