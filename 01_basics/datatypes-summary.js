@@ -34,6 +34,32 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof bigNumber)
+console.log(typeof bigNumber) 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive) (Reference)
+
+// STACK:
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(anothername)
+console.log(myYoutubename)
+
+// HEAP:
+let userOne = {
+    email: "panduemail.com",
+    city: "mumbai"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Bhogadas.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
